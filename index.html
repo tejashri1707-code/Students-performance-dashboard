@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EduMetrics: An interactive Student Performance Analysis Dashboard showing correlation between attendance, study hours, and academic success.">
+    <title>EduMetrics | Student Performance Analytics Dashboard</title>
+    <!-- Fonts and Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js and PapaParse (for CSV upload) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <div class="logo-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <h2>EduMetrics</h2>
+            </div>
+            <nav class="nav-menu">
+                <a href="#overview-section" class="nav-item active" id="nav-overview">
+                    <i class="fa-solid fa-chart-pie"></i> <span>Overview</span>
+                </a>
+                <a href="#insights-section" class="nav-item" id="nav-insights">
+                    <i class="fa-solid fa-lightbulb"></i> <span>Key Insights</span>
+                </a>
+                <a href="#explorer-section" class="nav-item" id="nav-explorer">
+                    <i class="fa-solid fa-table-list"></i> <span>Data Explorer</span>
+                </a>
+                <a href="#upload-section" class="nav-item" id="nav-upload">
+                    <i class="fa-solid fa-cloud-arrow-up"></i> <span>Upload Data</span>
+                </a>
+                <a href="#share-section" class="nav-item" id="nav-share">
+                    <i class="fa-solid fa-share-nodes"></i> <span>Share Showcase</span>
+                </a>
+            </nav>
+            <div class="portfolio-footer">
+                <div class="author-card">
+                    <div class="avatar"><i class="fa-solid fa-user-tie"></i></div>
+                    <div class="author-info">
+                        <h4>Tejashri</h4>
+                        <p>Data Analyst Portfolio</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Workspace -->
+        <main class="main-content">
+            
+            <!-- Top Dashboard Header -->
+            <header class="dashboard-header">
+                <div class="header-title">
+                    <h1>Student Performance Dashboard</h1>
+                    <p>Interactive analytics revealing the factors driving academic success</p>
+                </div>
+                <div class="header-actions">
+                    <div class="tag python-tag"><i class="fa-brands fa-python"></i> Pandas Enabled</div>
+                    <div class="tag excel-tag"><i class="fa-solid fa-file-excel"></i> Excel Connected</div>
+                    <button class="btn btn-primary" id="btn-theme-toggle"><i class="fa-solid fa-moon"></i> Theme</button>
+                </div>
+            </header>
+
+            <!-- Dashboard Content Scroll Area -->
+            <div class="dashboard-body">
+
+                <!-- 1. Stats KPI Deck -->
+                <section id="overview-section" class="kpi-deck">
+                    <div class="kpi-card" id="kpi-students">
+                        <div class="kpi-icon icon-purple"><i class="fa-solid fa-users"></i></div>
+                        <div class="kpi-data">
+                            <span class="kpi-label">Total Records</span>
+                            <h3 class="kpi-value" id="val-total-students">600</h3>
+                            <span class="kpi-subtext">Across 120 Students</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card" id="kpi-marks">
+                        <div class="kpi-icon icon-teal"><i class="fa-solid fa-award"></i></div>
+                        <div class="kpi-data">
+                            <span class="kpi-label">Average Marks</span>
+                            <h3 class="kpi-value" id="val-avg-marks">56.5%</h3>
+                            <span class="kpi-subtext">Passing threshold: 40%</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card" id="kpi-attendance">
+                        <div class="kpi-icon icon-blue"><i class="fa-solid fa-calendar-check"></i></div>
+                        <div class="kpi-data">
+                            <span class="kpi-label">Average Attendance</span>
+                            <h3 class="kpi-value" id="val-avg-attendance">73.9%</h3>
+                            <span class="kpi-subtext">Target benchmark: 75%</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card" id="kpi-pass-rate">
+                        <div class="kpi-icon icon-pink"><i class="fa-solid fa-circle-check"></i></div>
+                        <div class="kpi-data">
+                            <span class="kpi-label">Overall Pass Rate</span>
+                            <h3 class="kpi-value" id="val-pass-rate">86.0%</h3>
+                            <span class="kpi-subtext" id="val-fail-count">14.0% Failure Rate</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 2. Interactive Insights & Charts Grid -->
+                <section id="insights-section" class="insights-grid">
+                    
+                    <!-- Question 1: Attendance Card -->
+                    <div class="insight-card full-width">
+                        <div class="card-header">
+                            <div class="header-info">
+                                <span class="badge badge-indigo">Question 1</span>
+                                <h2>Does Attendance Affect Student Marks?</h2>
+                            </div>
+                            <div class="correlation-pill positive">
+                                <i class="fa-solid fa-chart-line"></i> Strong Correlation: <strong id="corr-attendance">r = +0.81</strong>
+                            </div>
+                        </div>
+                        <div class="insight-content-split">
+                            <div class="chart-container">
+                                <canvas id="chart-attendance-bracket"></canvas>
+                            </div>
+                            <div class="narrative-panel">
+                                <h3>Data Insight Analysis</h3>
+                                <p>Our statistical evaluation confirms a <strong>strong linear positive correlation</strong> between class attendance and final exam performance.</p>
+                                <div class="stat-highlight-row">
+                                    <div class="highlight-metric">
+                                        <span class="metric-number text-red" id="metric-crit-marks">35.4%</span>
+                                        <span class="metric-label">Avg Marks (&lt;70% attendance)</span>
+                                    </div>
+                                    <div class="arrow-connector"><i class="fa-solid fa-angles-right"></i></div>
+                                    <div class="highlight-metric">
+                                        <span class="metric-number text-green" id="metric-exec-marks">78.5%</span>
+                                        <span class="metric-label">Avg Marks (&gt;=90% attendance)</span>
+                                    </div>
+                                </div>
+                                <p class="caption-text"><i class="fa-solid fa-circle-info"></i> <strong>Critical Finding:</strong> Students with attendance falling below the 70% threshold have a failure rate exceeding 65%, emphasizing that visual classroom engagement is a critical driver for student completion.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Question 2: Subject Fail Rate Card -->
+                    <div class="insight-card half-width">
+                        <div class="card-header">
+                            <div class="header-info">
+                                <span class="badge badge-pink">Question 2</span>
+                                <h2>Subject Failure Rates Ranking</h2>
+                            </div>
+                            <span class="danger-indicator"><i class="fa-solid fa-triangle-exclamation"></i> Hardest: <strong id="hardest-subject-name">Mathematics</strong></span>
+                        </div>
+                        <div class="chart-wrapper">
+                            <canvas id="chart-subject-fail"></canvas>
+                        </div>
+                        <div class="card-footer-info">
+                            <p id="fail-ranking-explanation"><strong>Mathematics</strong> holds the highest failure rate of <strong>28.3%</strong>, showing it poses the largest challenge. English proved to be the most accessible, yielding a 0% failure rate.</p>
+                        </div>
+                    </div>
+
+                    <!-- Question 3: Study Time Card -->
+                    <div class="insight-card half-width">
+                        <div class="card-header">
+                            <div class="header-info">
+                                <span class="badge badge-teal">Question 3</span>
+                                <h2>Does Weekly Study Time Improve Scores?</h2>
+                            </div>
+                            <div class="correlation-pill success">
+                                Correlation: <strong id="corr-study">r = +0.76</strong>
+                            </div>
+                        </div>
+                        <div class="chart-wrapper">
+                            <canvas id="chart-study-scatter"></canvas>
+                        </div>
+                        <div class="card-footer-info">
+                            <p id="study-time-explanation">Weekly study time shows a direct linear benefit. Students dedicating more than 15 hours per week achieve an average score of <strong>74.2%</strong> and a 100% pass rate.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 3. Dynamic Interactive Data Explorer -->
+                <section id="explorer-section" class="explorer-card">
+                    <div class="card-header">
+                        <h2>Interactive Student Explorer</h2>
+                        <div class="explorer-controls">
+                            <div class="search-input-wrapper">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" id="student-search" placeholder="Search by Student Name...">
+                            </div>
+                            <select id="filter-subject" class="select-dropdown">
+                                <option value="all">All Subjects</option>
+                                <option value="Mathematics">Mathematics</option>
+                                <option value="Physics">Physics</option>
+                                <option value="Chemistry">Chemistry</option>
+                                <option value="Computer Science">Computer Science</option>
+                                <option value="English">English</option>
+                            </select>
+                            <select id="filter-status" class="select-dropdown">
+                                <option value="all">All Statuses</option>
+                                <option value="Pass">Pass</option>
+                                <option value="Fail">Fail</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="table-scroll-container">
+                        <table class="data-table" id="table-student-data">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Gender</th>
+                                    <th>Subject</th>
+                                    <th>Attendance</th>
+                                    <th>Study Hours</th>
+                                    <th>Exam Marks</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-body">
+                                <!-- Data rows injected by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="table-pagination">
+                        <div class="pagination-info" id="pagination-details">
+                            Showing 1 to 10 of 600 records
+                        </div>
+                        <div class="pagination-buttons">
+                            <button class="btn btn-secondary" id="btn-prev" disabled><i class="fa-solid fa-chevron-left"></i> Previous</button>
+                            <button class="btn btn-secondary" id="btn-next">Next <i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 4. Dynamic Data File Uploader -->
+                <section id="upload-section" class="upload-card">
+                    <div class="upload-split">
+                        <div class="upload-instructions">
+                            <h2>Analyze Your Own Class Data</h2>
+                            <p>Test the flexibility of our Pandas analytical pipeline! Drag and drop any custom student spreadsheet (CSV) with the matching schema below, and watch the entire dashboard recalculate dynamically in real-time.</p>
+                            <div class="schema-hint">
+                                <h4>Expected CSV Schema Columns:</h4>
+                                <code>Student_ID, Name, Gender, Subject, Attendance_Rate, Study_Hours_Per_Week, Marks, Status</code>
+                            </div>
+                            <button class="btn btn-outline" id="btn-load-demo"><i class="fa-solid fa-rotate-left"></i> Reload Original Sample Data</button>
+                        </div>
+                        
+                        <div class="upload-dropzone" id="csv-drop-area">
+                            <div class="dropzone-content">
+                                <div class="upload-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                                <h3>Drag & Drop CSV File</h3>
+                                <p>or click to browse local files</p>
+                                <input type="file" id="csv-file-input" accept=".csv" style="display: none;">
+                                <span class="file-limits">Supported format: CSV (Max 5MB)</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 5. LinkedIn & GitHub Share Center -->
+                <section id="share-section" class="share-card">
+                    <div class="share-header">
+                        <h2>Ready to Publish?</h2>
+                        <p>We've prepared the perfect copy-paste template optimized for LinkedIn engagement and GitHub README showcasing!</p>
+                    </div>
+                    
+                    <div class="share-tabs">
+                        <div class="share-tab-buttons">
+                            <button class="tab-btn active" id="tab-linkedin"><i class="fa-brands fa-linkedin"></i> LinkedIn Post</button>
+                            <button class="tab-btn" id="tab-github"><i class="fa-brands fa-github"></i> GitHub Portfolio Badge</button>
+                        </div>
+                        
+                        <div class="tab-content" id="linkedin-tab-content">
+                            <div class="code-box-wrapper">
+                                <pre class="code-box" id="linkedin-text">
+📊 Data Science Showcase: Student Performance Analytics 🎓
+
+I just completed an end-to-end data analysis project modeling and visualizing key performance metrics from 600 student academic profiles. The pipeline leverages Python (Pandas) for data engineering and clean quantitative statistics, alongside an interactive high-fidelity glassmorphism frontend dashboard!
+
+🔍 Key Business Questions Solved:
+1️⃣ Does attendance affect scores? 
+👉 Absolutely. r = +0.81. Attendance below 70% results in a critical drop in averages (35.4%), whilst &gt;=90% attendance drives averages to 78.5%!
+
+2️⃣ Which subjects have the highest failure rates?
+👉 Mathematics was the most challenging with a 28.3% failure rate, followed closely by Physics (18.2%). English proved the most accessible (0% failures).
+
+3️⃣ Does study time improve scores?
+👉 Solid positive correlation (r = +0.76). Students crossing the 15 hours/week study benchmark hit a 100% pass rate!
+
+💻 Tech Stack Utilized:
+✅ Python & Pandas (Correlation, Categorization, Pivot Aggregations)
+✅ OpenPyXL (Professional Excel Exporting)
+✅ HTML5, CSS3 Glassmorphism, & JavaScript ES6 (Client-side Data Engine)
+✅ Chart.js (Responsive Canvas Visualizations)
+
+📂 GitHub Repository: https://github.com/tejashri1707-code/Students-performance-dashboard
+📊 Interactive Demo: https://tejashri1707-code.github.io/Students-performance-dashboard/
+
+Check out the full repository and let me know your thoughts on student success modeling! 
+
+#DataAnalytics #Pandas #Python #DataVisualization #Dashboard #GitHub #Portfolio #Excel
+                                </pre>
+                                <button class="btn btn-primary btn-copy" id="btn-copy-linkedin" data-clipboard-target="#linkedin-text">
+                                    <i class="fa-regular fa-copy"></i> Copy Post Text
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-content hidden" id="github-tab-content">
+                            <div class="code-box-wrapper">
+                                <pre class="code-box" id="github-markdown">
+# 📊 Student Performance Analytics Portfolio Project
+
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-indigo.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![Excel Connected](https://img.shields.io/badge/Excel-Exported_Spreadsheet-green.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white)](#)
+[![Interactive Dashboard](https://img.shields.io/badge/Live_Dashboard-Interactive_Charts-teal.svg?style=for-the-badge&logo=javascript&logoColor=white)](#)
+
+### 📌 Core Analytical Insights Summary:
+- **Attendance Impact**: Strong Positive Correlation (r = 0.81). Below 70% attendance drops average grades to **35.4%**.
+- **Subject Difficulty**: **Mathematics** holds the highest failure rate of **28.3%**, with Physics following at **18.2%**.
+- **Study Influence**: Consistent academic dedication (r = 0.76 correlation). Students studying 15+ hours/week achieve a **100% Pass Rate**.
+                                </pre>
+                                <button class="btn btn-primary btn-copy" id="btn-copy-github" data-clipboard-target="#github-markdown">
+                                    <i class="fa-regular fa-copy"></i> Copy Markdown Code
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+    </div>
+    
+    <!-- Notification Toast -->
+    <div class="toast" id="toast-message">
+        <i class="fa-solid fa-circle-check"></i> <span id="toast-text">Text Copied Successfully!</span>
+    </div>
+
+    <!-- Custom Script -->
+    <script src="app.js"></script>
+</body>
+</html>

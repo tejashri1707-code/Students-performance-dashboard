@@ -1,0 +1,98 @@
+{
+    "overall": {
+        "total_records": 600,
+        "total_students": 120,
+        "avg_marks": 56.54,
+        "avg_attendance": 73.91,
+        "overall_pass_rate": 86.0
+    },
+    "attendance_analysis": {
+        "correlation": 0.3139,
+        "brackets": [
+            {
+                "Attendance_Bracket": "< 70% (Critical)",
+                "Avg_Marks": 51.38,
+                "Pass_Rate": 79.06,
+                "Student_Count": 234
+            },
+            {
+                "Attendance_Bracket": "70-80% (Low)",
+                "Avg_Marks": 57.52,
+                "Pass_Rate": 87.98,
+                "Student_Count": 183
+            },
+            {
+                "Attendance_Bracket": "80-90% (Good)",
+                "Avg_Marks": 61.29,
+                "Pass_Rate": 91.06,
+                "Student_Count": 123
+            },
+            {
+                "Attendance_Bracket": ">= 90% (Excellent)",
+                "Avg_Marks": 63.95,
+                "Pass_Rate": 96.67,
+                "Student_Count": 60
+            }
+        ]
+    },
+    "subject_analysis": [
+        {
+            "Subject": "Mathematics",
+            "Avg_Marks": 47.45,
+            "Fail_Count": 33,
+            "Total_Count": 120,
+            "Fail_Rate": 27.5
+        },
+        {
+            "Subject": "Physics",
+            "Avg_Marks": 50.725,
+            "Fail_Count": 24,
+            "Total_Count": 120,
+            "Fail_Rate": 20.0
+        },
+        {
+            "Subject": "Chemistry",
+            "Avg_Marks": 58.5,
+            "Fail_Count": 14,
+            "Total_Count": 120,
+            "Fail_Rate": 11.67
+        },
+        {
+            "Subject": "Computer Science",
+            "Avg_Marks": 61.175,
+            "Fail_Count": 8,
+            "Total_Count": 120,
+            "Fail_Rate": 6.67
+        },
+        {
+            "Subject": "English",
+            "Avg_Marks": 64.85833333333333,
+            "Fail_Count": 5,
+            "Total_Count": 120,
+            "Fail_Rate": 4.17
+        }
+    ],
+    "study_analysis": {
+        "correlation": 0.4199,
+        "brackets": [
+            {
+                "Study_Bracket": "Low (<6 hrs/wk)",
+                "Avg_Marks": 48.11,
+                "Pass_Rate": 70.27,
+                "Student_Count": 185
+            },
+            {
+                "Study_Bracket": "Medium (6-15 hrs/wk)",
+                "Avg_Marks": 60.1,
+                "Pass_Rate": 92.77,
+                "Student_Count": 401
+            },
+            {
+                "Study_Bracket": "High (>15 hrs/wk)",
+                "Avg_Marks": 66.0,
+                "Pass_Rate": 100.0,
+                "Student_Count": 14
+            }
+        ]
+    }
+}

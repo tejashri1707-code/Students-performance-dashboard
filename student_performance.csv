@@ -1,0 +1,601 @@
+Student_ID,Name,Gender,Subject,Attendance_Rate,Study_Hours_Per_Week,Marks,Status
+STD2026001,Aarav Gupta,Female,Mathematics,78.4,9.1,58,Pass
+STD2026001,Aarav Gupta,Female,Physics,76.4,11.5,59,Pass
+STD2026001,Aarav Gupta,Female,Chemistry,74.5,9.2,60,Pass
+STD2026001,Aarav Gupta,Female,Computer Science,68.6,10.7,55,Pass
+STD2026001,Aarav Gupta,Female,English,70.1,11.1,70,Pass
+STD2026002,Amit Patel,Male,Mathematics,63.0,1.0,30,Fail
+STD2026002,Amit Patel,Male,Physics,63.4,1.0,31,Fail
+STD2026002,Amit Patel,Male,Chemistry,63.2,0.8,43,Pass
+STD2026002,Amit Patel,Male,Computer Science,63.2,0.8,54,Pass
+STD2026002,Amit Patel,Male,English,63.4,1.2,44,Pass
+STD2026003,Krunal Johnson,Female,Mathematics,51.5,9.0,51,Pass
+STD2026003,Krunal Johnson,Female,Physics,62.9,10.3,58,Pass
+STD2026003,Krunal Johnson,Female,Chemistry,58.1,8.4,67,Pass
+STD2026003,Krunal Johnson,Female,Computer Science,57.2,8.3,67,Pass
+STD2026003,Krunal Johnson,Female,English,52.3,7.6,70,Pass
+STD2026004,Rahul Mehta,Female,Mathematics,83.9,9.3,57,Pass
+STD2026004,Rahul Mehta,Female,Physics,86.1,10.3,76,Pass
+STD2026004,Rahul Mehta,Female,Chemistry,84.0,10.2,70,Pass
+STD2026004,Rahul Mehta,Female,Computer Science,88.0,12.7,93,Pass
+STD2026004,Rahul Mehta,Female,English,80.6,12.0,82,Pass
+STD2026005,Ojas Johnson,Male,Mathematics,98.7,7.9,56,Pass
+STD2026005,Ojas Johnson,Male,Physics,92.2,6.6,60,Pass
+STD2026005,Ojas Johnson,Male,Chemistry,91.3,7.3,73,Pass
+STD2026005,Ojas Johnson,Male,Computer Science,92.5,7.1,82,Pass
+STD2026005,Ojas Johnson,Male,English,90.4,7.0,72,Pass
+STD2026006,Gautam Iyer,Female,Mathematics,81.0,11.0,53,Pass
+STD2026006,Gautam Iyer,Female,Physics,80.4,14.2,66,Pass
+STD2026006,Gautam Iyer,Female,Chemistry,78.8,10.7,64,Pass
+STD2026006,Gautam Iyer,Female,Computer Science,78.4,14.2,56,Pass
+STD2026006,Gautam Iyer,Female,English,69.4,11.2,67,Pass
+STD2026007,James Joshi,Male,Mathematics,66.0,7.4,33,Fail
+STD2026007,James Joshi,Male,Physics,70.0,8.7,32,Fail
+STD2026007,James Joshi,Male,Chemistry,64.3,6.7,49,Pass
+STD2026007,James Joshi,Male,Computer Science,62.6,7.4,52,Pass
+STD2026007,James Joshi,Male,English,65.6,6.3,59,Pass
+STD2026008,Divya Sen,Female,Mathematics,80.1,3.7,49,Pass
+STD2026008,Divya Sen,Female,Physics,88.8,3.6,39,Fail
+STD2026008,Divya Sen,Female,Chemistry,79.7,3.9,54,Pass
+STD2026008,Divya Sen,Female,Computer Science,79.2,2.8,51,Pass
+STD2026008,Divya Sen,Female,English,90.0,2.7,70,Pass
+STD2026009,Gautam Verma,Female,Mathematics,76.7,4.0,32,Fail
+STD2026009,Gautam Verma,Female,Physics,74.2,3.2,23,Fail
+STD2026009,Gautam Verma,Female,Chemistry,73.5,4.4,33,Fail
+STD2026009,Gautam Verma,Female,Computer Science,77.0,4.0,43,Pass
+STD2026009,Gautam Verma,Female,English,80.1,3.8,43,Pass
+STD2026010,Vidya Kumar,Male,Mathematics,61.9,14.8,44,Pass
+STD2026010,Vidya Kumar,Male,Physics,57.7,13.5,55,Pass
+STD2026010,Vidya Kumar,Male,Chemistry,57.6,10.3,60,Pass
+STD2026010,Vidya Kumar,Male,Computer Science,57.9,10.2,51,Pass
+STD2026010,Vidya Kumar,Male,English,57.4,13.7,56,Pass
+STD2026011,Esha Brown,Female,Mathematics,85.0,3.8,39,Fail
+STD2026011,Esha Brown,Female,Physics,87.0,4.7,46,Pass
+STD2026011,Esha Brown,Female,Chemistry,89.5,3.4,33,Fail
+STD2026011,Esha Brown,Female,Computer Science,78.8,3.7,44,Pass
+STD2026011,Esha Brown,Female,English,83.2,4.7,62,Pass
+STD2026012,Karan Brown,Female,Mathematics,94.4,9.1,61,Pass
+STD2026012,Karan Brown,Female,Physics,95.7,9.9,71,Pass
+STD2026012,Karan Brown,Female,Chemistry,99.5,9.9,81,Pass
+STD2026012,Karan Brown,Female,Computer Science,96.6,9.6,65,Pass
+STD2026012,Karan Brown,Female,English,96.3,8.6,75,Pass
+STD2026013,Jessica Rao,Male,Mathematics,79.2,4.7,54,Pass
+STD2026013,Jessica Rao,Male,Physics,78.8,4.9,59,Pass
+STD2026013,Jessica Rao,Male,Chemistry,82.8,4.2,64,Pass
+STD2026013,Jessica Rao,Male,Computer Science,76.2,5.0,64,Pass
+STD2026013,Jessica Rao,Male,English,94.0,5.0,80,Pass
+STD2026014,Uday Roy,Male,Mathematics,72.2,7.3,44,Pass
+STD2026014,Uday Roy,Male,Physics,74.8,8.6,63,Pass
+STD2026014,Uday Roy,Male,Chemistry,69.6,9.0,70,Pass
+STD2026014,Uday Roy,Male,Computer Science,74.9,7.4,79,Pass
+STD2026014,Uday Roy,Male,English,83.0,7.7,79,Pass
+STD2026015,Michael Roy,Female,Mathematics,74.0,8.3,51,Pass
+STD2026015,Michael Roy,Female,Physics,79.9,9.7,33,Fail
+STD2026015,Michael Roy,Female,Chemistry,77.3,9.1,49,Pass
+STD2026015,Michael Roy,Female,Computer Science,69.9,6.8,55,Pass
+STD2026015,Michael Roy,Female,English,80.1,7.9,57,Pass
+STD2026016,Neha Rodriguez,Female,Mathematics,81.6,1.4,47,Pass
+STD2026016,Neha Rodriguez,Female,Physics,86.3,1.5,51,Pass
+STD2026016,Neha Rodriguez,Female,Chemistry,74.9,1.7,35,Fail
+STD2026016,Neha Rodriguez,Female,Computer Science,79.6,1.5,57,Pass
+STD2026016,Neha Rodriguez,Female,English,77.7,1.5,46,Pass
+STD2026017,Esha Garcia,Female,Mathematics,53.3,15.3,48,Pass
+STD2026017,Esha Garcia,Female,Physics,57.2,15.3,63,Pass
+STD2026017,Esha Garcia,Female,Chemistry,59.1,15.5,59,Pass
+STD2026017,Esha Garcia,Female,Computer Science,59.3,15.0,65,Pass
+STD2026017,Esha Garcia,Female,English,61.7,13.9,62,Pass
+STD2026018,Varun Iyer,Female,Mathematics,84.0,9.6,74,Pass
+STD2026018,Varun Iyer,Female,Physics,83.4,6.9,69,Pass
+STD2026018,Varun Iyer,Female,Chemistry,85.8,6.7,77,Pass
+STD2026018,Varun Iyer,Female,Computer Science,79.9,7.0,90,Pass
+STD2026018,Varun Iyer,Female,English,86.1,9.5,100,Pass
+STD2026019,Krunal Nair,Male,Mathematics,79.3,5.2,39,Fail
+STD2026019,Krunal Nair,Male,Physics,76.7,5.2,61,Pass
+STD2026019,Krunal Nair,Male,Chemistry,80.7,5.4,76,Pass
+STD2026019,Krunal Nair,Male,Computer Science,79.8,5.2,78,Pass
+STD2026019,Krunal Nair,Male,English,81.6,4.3,69,Pass
+STD2026020,Ojas Choudhury,Female,Mathematics,78.4,5.4,62,Pass
+STD2026020,Ojas Choudhury,Female,Physics,66.7,5.9,45,Pass
+STD2026020,Ojas Choudhury,Female,Chemistry,73.8,6.2,69,Pass
+STD2026020,Ojas Choudhury,Female,Computer Science,70.7,4.6,56,Pass
+STD2026020,Ojas Choudhury,Female,English,62.4,6.4,82,Pass
+STD2026021,Chirag Brown,Female,Mathematics,67.9,10.1,37,Fail
+STD2026021,Chirag Brown,Female,Physics,71.0,10.9,43,Pass
+STD2026021,Chirag Brown,Female,Chemistry,71.1,8.0,57,Pass
+STD2026021,Chirag Brown,Female,Computer Science,68.2,11.4,50,Pass
+STD2026021,Chirag Brown,Female,English,69.3,10.7,43,Pass
+STD2026022,Uday Wilson,Female,Mathematics,67.6,6.8,59,Pass
+STD2026022,Uday Wilson,Female,Physics,71.7,8.8,61,Pass
+STD2026022,Uday Wilson,Female,Chemistry,72.3,7.6,73,Pass
+STD2026022,Uday Wilson,Female,Computer Science,73.1,7.1,72,Pass
+STD2026022,Uday Wilson,Female,English,70.7,9.6,90,Pass
+STD2026023,Arjun Banerjee,Male,Mathematics,66.7,8.5,43,Pass
+STD2026023,Arjun Banerjee,Male,Physics,72.2,8.5,59,Pass
+STD2026023,Arjun Banerjee,Male,Chemistry,65.5,6.6,52,Pass
+STD2026023,Arjun Banerjee,Male,Computer Science,68.6,8.5,55,Pass
+STD2026023,Arjun Banerjee,Male,English,62.3,8.0,71,Pass
+STD2026024,Geeta Choudhury,Male,Mathematics,53.3,8.2,30,Fail
+STD2026024,Geeta Choudhury,Male,Physics,45.8,11.1,43,Pass
+STD2026024,Geeta Choudhury,Male,Chemistry,50.8,10.6,33,Fail
+STD2026024,Geeta Choudhury,Male,Computer Science,44.2,11.2,49,Pass
+STD2026024,Geeta Choudhury,Male,English,52.2,9.3,44,Pass
+STD2026025,Sanjay Roy,Male,Mathematics,67.0,8.9,28,Fail
+STD2026025,Sanjay Roy,Male,Physics,60.4,6.8,30,Fail
+STD2026025,Sanjay Roy,Male,Chemistry,68.9,7.2,47,Pass
+STD2026025,Sanjay Roy,Male,Computer Science,73.0,7.6,47,Pass
+STD2026025,Sanjay Roy,Male,English,63.8,8.1,47,Pass
+STD2026026,Lata Trivedi,Female,Mathematics,80.1,12.1,73,Pass
+STD2026026,Lata Trivedi,Female,Physics,78.6,13.6,88,Pass
+STD2026026,Lata Trivedi,Female,Chemistry,74.3,10.2,74,Pass
+STD2026026,Lata Trivedi,Female,Computer Science,80.3,12.1,71,Pass
+STD2026026,Lata Trivedi,Female,English,79.6,11.8,88,Pass
+STD2026027,Emma Williams,Female,Mathematics,69.4,16.6,74,Pass
+STD2026027,Emma Williams,Female,Physics,78.1,13.1,79,Pass
+STD2026027,Emma Williams,Female,Chemistry,74.8,14.5,91,Pass
+STD2026027,Emma Williams,Female,Computer Science,69.1,13.0,85,Pass
+STD2026027,Emma Williams,Female,English,71.1,12.7,92,Pass
+STD2026028,Karan Iyer,Male,Mathematics,96.9,5.5,45,Pass
+STD2026028,Karan Iyer,Male,Physics,96.5,5.9,47,Pass
+STD2026028,Karan Iyer,Male,Chemistry,92.9,6.4,57,Pass
+STD2026028,Karan Iyer,Male,Computer Science,100.0,5.5,64,Pass
+STD2026028,Karan Iyer,Male,English,100.0,5.6,78,Pass
+STD2026029,Priya Nair,Male,Mathematics,74.4,9.1,44,Pass
+STD2026029,Priya Nair,Male,Physics,66.4,10.4,39,Fail
+STD2026029,Priya Nair,Male,Chemistry,76.8,10.3,68,Pass
+STD2026029,Priya Nair,Male,Computer Science,67.4,12.1,89,Pass
+STD2026029,Priya Nair,Male,English,75.8,8.8,78,Pass
+STD2026030,Ojas Gupta,Male,Mathematics,63.5,4.1,13,Fail
+STD2026030,Ojas Gupta,Male,Physics,61.7,3.7,7,Fail
+STD2026030,Ojas Gupta,Male,Chemistry,65.1,4.7,32,Fail
+STD2026030,Ojas Gupta,Male,Computer Science,64.2,3.7,39,Fail
+STD2026030,Ojas Gupta,Male,English,73.8,4.8,44,Pass
+STD2026031,Sarah Sharma,Female,Mathematics,66.2,4.8,14,Fail
+STD2026031,Sarah Sharma,Female,Physics,75.5,5.4,26,Fail
+STD2026031,Sarah Sharma,Female,Chemistry,74.0,3.8,37,Fail
+STD2026031,Sarah Sharma,Female,Computer Science,69.2,3.9,38,Fail
+STD2026031,Sarah Sharma,Female,English,68.3,3.9,27,Fail
+STD2026032,Isha Garcia,Male,Mathematics,79.6,6.9,57,Pass
+STD2026032,Isha Garcia,Male,Physics,80.7,9.0,54,Pass
+STD2026032,Isha Garcia,Male,Chemistry,86.9,7.0,80,Pass
+STD2026032,Isha Garcia,Male,Computer Science,76.0,7.1,72,Pass
+STD2026032,Isha Garcia,Male,English,79.8,6.9,51,Pass
+STD2026033,Vidya Trivedi,Female,Mathematics,56.5,9.1,68,Pass
+STD2026033,Vidya Trivedi,Female,Physics,56.7,8.7,42,Pass
+STD2026033,Vidya Trivedi,Female,Chemistry,61.6,8.7,52,Pass
+STD2026033,Vidya Trivedi,Female,Computer Science,66.2,11.3,70,Pass
+STD2026033,Vidya Trivedi,Female,English,68.9,10.4,56,Pass
+STD2026034,Isha Verma,Male,Mathematics,78.0,9.5,53,Pass
+STD2026034,Isha Verma,Male,Physics,77.4,7.4,38,Fail
+STD2026034,Isha Verma,Male,Chemistry,74.8,9.4,47,Pass
+STD2026034,Isha Verma,Male,Computer Science,77.2,7.9,69,Pass
+STD2026034,Isha Verma,Male,English,75.0,9.4,65,Pass
+STD2026035,Amit Reddy,Male,Mathematics,60.5,1.1,0,Fail
+STD2026035,Amit Reddy,Male,Physics,62.0,1.2,23,Fail
+STD2026035,Amit Reddy,Male,Chemistry,53.1,1.2,12,Fail
+STD2026035,Amit Reddy,Male,Computer Science,63.1,1.2,15,Fail
+STD2026035,Amit Reddy,Male,English,66.5,0.9,36,Fail
+STD2026036,Michael Davis,Female,Mathematics,83.6,7.7,66,Pass
+STD2026036,Michael Davis,Female,Physics,88.9,6.8,60,Pass
+STD2026036,Michael Davis,Female,Chemistry,91.6,9.6,82,Pass
+STD2026036,Michael Davis,Female,Computer Science,89.7,7.0,74,Pass
+STD2026036,Michael Davis,Female,English,90.7,7.2,79,Pass
+STD2026037,Nitin Miller,Male,Mathematics,68.4,12.4,46,Pass
+STD2026037,Nitin Miller,Male,Physics,64.1,10.8,45,Pass
+STD2026037,Nitin Miller,Male,Chemistry,68.9,11.3,70,Pass
+STD2026037,Nitin Miller,Male,Computer Science,73.5,12.0,76,Pass
+STD2026037,Nitin Miller,Male,English,65.8,12.4,78,Pass
+STD2026038,Farhan Patel,Female,Mathematics,71.6,3.8,60,Pass
+STD2026038,Farhan Patel,Female,Physics,73.0,4.1,49,Pass
+STD2026038,Farhan Patel,Female,Chemistry,87.2,3.3,64,Pass
+STD2026038,Farhan Patel,Female,Computer Science,76.4,3.9,57,Pass
+STD2026038,Farhan Patel,Female,English,80.4,4.0,48,Pass
+STD2026039,Tanvi Mishra,Female,Mathematics,65.1,5.9,19,Fail
+STD2026039,Tanvi Mishra,Female,Physics,57.9,5.8,8,Fail
+STD2026039,Tanvi Mishra,Female,Chemistry,58.2,7.8,47,Pass
+STD2026039,Tanvi Mishra,Female,Computer Science,51.1,7.0,37,Fail
+STD2026039,Tanvi Mishra,Female,English,54.0,5.6,42,Pass
+STD2026040,James Trivedi,Female,Mathematics,62.7,10.0,53,Pass
+STD2026040,James Trivedi,Female,Physics,63.6,7.0,43,Pass
+STD2026040,James Trivedi,Female,Chemistry,76.1,7.1,50,Pass
+STD2026040,James Trivedi,Female,Computer Science,64.8,8.7,73,Pass
+STD2026040,James Trivedi,Female,English,57.6,8.8,53,Pass
+STD2026041,Varun Joshi,Female,Mathematics,66.4,2.5,30,Fail
+STD2026041,Varun Joshi,Female,Physics,69.3,2.0,45,Pass
+STD2026041,Varun Joshi,Female,Chemistry,74.6,1.9,39,Fail
+STD2026041,Varun Joshi,Female,Computer Science,66.6,2.5,43,Pass
+STD2026041,Varun Joshi,Female,English,71.5,2.5,50,Pass
+STD2026042,James Patel,Female,Mathematics,84.7,4.1,45,Pass
+STD2026042,James Patel,Female,Physics,79.4,3.9,50,Pass
+STD2026042,James Patel,Female,Chemistry,77.1,4.9,66,Pass
+STD2026042,James Patel,Female,Computer Science,81.7,3.8,64,Pass
+STD2026042,James Patel,Female,English,89.0,3.8,48,Pass
+STD2026043,Jay Nair,Female,Mathematics,100.0,0.9,41,Pass
+STD2026043,Jay Nair,Female,Physics,94.9,1.1,33,Fail
+STD2026043,Jay Nair,Female,Chemistry,94.8,0.9,58,Pass
+STD2026043,Jay Nair,Female,Computer Science,97.7,0.9,48,Pass
+STD2026043,Jay Nair,Female,English,94.3,1.2,39,Fail
+STD2026044,Meera Rodriguez,Male,Mathematics,62.5,11.6,55,Pass
+STD2026044,Meera Rodriguez,Male,Physics,55.5,10.6,58,Pass
+STD2026044,Meera Rodriguez,Male,Chemistry,50.4,11.9,60,Pass
+STD2026044,Meera Rodriguez,Male,Computer Science,47.1,10.3,46,Pass
+STD2026044,Meera Rodriguez,Male,English,53.1,10.6,65,Pass
+STD2026045,Olivia Sen,Male,Mathematics,51.7,4.7,33,Fail
+STD2026045,Olivia Sen,Male,Physics,50.1,4.3,35,Fail
+STD2026045,Olivia Sen,Male,Chemistry,57.9,4.7,46,Pass
+STD2026045,Olivia Sen,Male,Computer Science,51.0,3.5,61,Pass
+STD2026045,Olivia Sen,Male,English,56.7,4.0,44,Pass
+STD2026046,Sneha Singh,Female,Mathematics,84.1,6.5,51,Pass
+STD2026046,Sneha Singh,Female,Physics,79.0,7.5,50,Pass
+STD2026046,Sneha Singh,Female,Chemistry,71.8,6.9,65,Pass
+STD2026046,Sneha Singh,Female,Computer Science,73.2,7.8,61,Pass
+STD2026046,Sneha Singh,Female,English,70.9,6.8,63,Pass
+STD2026047,Esha Gupta,Female,Mathematics,85.7,11.0,56,Pass
+STD2026047,Esha Gupta,Female,Physics,83.9,10.2,65,Pass
+STD2026047,Esha Gupta,Female,Chemistry,82.2,8.9,72,Pass
+STD2026047,Esha Gupta,Female,Computer Science,81.9,8.3,60,Pass
+STD2026047,Esha Gupta,Female,English,85.5,12.0,88,Pass
+STD2026048,Karan Mehta,Female,Mathematics,62.8,9.8,49,Pass
+STD2026048,Karan Mehta,Female,Physics,69.3,10.8,49,Pass
+STD2026048,Karan Mehta,Female,Chemistry,67.4,10.7,59,Pass
+STD2026048,Karan Mehta,Female,Computer Science,74.2,10.7,66,Pass
+STD2026048,Karan Mehta,Female,English,71.9,12.1,72,Pass
+STD2026049,Chirag Sen,Male,Mathematics,92.4,5.9,59,Pass
+STD2026049,Chirag Sen,Male,Physics,88.0,7.1,52,Pass
+STD2026049,Chirag Sen,Male,Chemistry,92.6,5.7,54,Pass
+STD2026049,Chirag Sen,Male,Computer Science,90.0,5.0,53,Pass
+STD2026049,Chirag Sen,Male,English,83.1,5.4,50,Pass
+STD2026050,Bhavna Das,Male,Mathematics,60.5,12.4,31,Fail
+STD2026050,Bhavna Das,Male,Physics,61.0,11.2,45,Pass
+STD2026050,Bhavna Das,Male,Chemistry,65.8,10.8,60,Pass
+STD2026050,Bhavna Das,Male,Computer Science,58.6,9.5,42,Pass
+STD2026050,Bhavna Das,Male,English,63.4,10.1,48,Pass
+STD2026051,Sanjay Iyer,Male,Mathematics,69.0,5.3,50,Pass
+STD2026051,Sanjay Iyer,Male,Physics,64.3,4.7,70,Pass
+STD2026051,Sanjay Iyer,Male,Chemistry,74.3,3.9,63,Pass
+STD2026051,Sanjay Iyer,Male,Computer Science,69.5,4.0,70,Pass
+STD2026051,Sanjay Iyer,Male,English,68.5,5.0,66,Pass
+STD2026052,Pooja Joshi,Male,Mathematics,56.6,3.0,27,Fail
+STD2026052,Pooja Joshi,Male,Physics,50.9,3.4,39,Fail
+STD2026052,Pooja Joshi,Male,Chemistry,39.1,3.1,32,Fail
+STD2026052,Pooja Joshi,Male,Computer Science,51.1,3.2,56,Pass
+STD2026052,Pooja Joshi,Male,English,46.5,3.4,54,Pass
+STD2026053,Amit Verma,Female,Mathematics,89.3,12.2,73,Pass
+STD2026053,Amit Verma,Female,Physics,93.4,12.4,69,Pass
+STD2026053,Amit Verma,Female,Chemistry,87.9,10.5,66,Pass
+STD2026053,Amit Verma,Female,Computer Science,89.3,12.7,80,Pass
+STD2026053,Amit Verma,Female,English,92.4,9.1,86,Pass
+STD2026054,Hari Verma,Female,Mathematics,77.3,8.5,24,Fail
+STD2026054,Hari Verma,Female,Physics,73.1,9.2,40,Pass
+STD2026054,Hari Verma,Female,Chemistry,76.4,7.8,43,Pass
+STD2026054,Hari Verma,Female,Computer Science,76.7,7.0,47,Pass
+STD2026054,Hari Verma,Female,English,75.0,6.9,52,Pass
+STD2026055,Krunal Nair,Male,Mathematics,58.9,8.0,49,Pass
+STD2026055,Krunal Nair,Male,Physics,62.2,9.8,56,Pass
+STD2026055,Krunal Nair,Male,Chemistry,63.2,9.4,65,Pass
+STD2026055,Krunal Nair,Male,Computer Science,53.5,9.5,63,Pass
+STD2026055,Krunal Nair,Male,English,69.2,7.8,64,Pass
+STD2026056,James Das,Female,Mathematics,86.3,10.9,65,Pass
+STD2026056,James Das,Female,Physics,84.4,11.6,58,Pass
+STD2026056,James Das,Female,Chemistry,76.9,10.9,74,Pass
+STD2026056,James Das,Female,Computer Science,81.6,13.8,73,Pass
+STD2026056,James Das,Female,English,78.9,9.7,63,Pass
+STD2026057,Geeta Gupta,Female,Mathematics,95.8,9.1,46,Pass
+STD2026057,Geeta Gupta,Female,Physics,90.4,8.5,50,Pass
+STD2026057,Geeta Gupta,Female,Chemistry,93.1,8.5,45,Pass
+STD2026057,Geeta Gupta,Female,Computer Science,92.6,6.2,54,Pass
+STD2026057,Geeta Gupta,Female,English,94.2,8.6,53,Pass
+STD2026058,Farhan Verma,Male,Mathematics,73.1,5.0,39,Fail
+STD2026058,Farhan Verma,Male,Physics,79.0,4.5,42,Pass
+STD2026058,Farhan Verma,Male,Chemistry,76.0,4.9,61,Pass
+STD2026058,Farhan Verma,Male,Computer Science,76.7,5.2,38,Fail
+STD2026058,Farhan Verma,Male,English,82.6,5.7,56,Pass
+STD2026059,Karan Verma,Male,Mathematics,68.8,8.4,41,Pass
+STD2026059,Karan Verma,Male,Physics,80.6,6.4,43,Pass
+STD2026059,Karan Verma,Male,Chemistry,65.3,6.7,41,Pass
+STD2026059,Karan Verma,Male,Computer Science,73.1,6.6,41,Pass
+STD2026059,Karan Verma,Male,English,72.3,8.2,63,Pass
+STD2026060,Michael Johnson,Male,Mathematics,69.2,6.7,44,Pass
+STD2026060,Michael Johnson,Male,Physics,68.3,6.7,49,Pass
+STD2026060,Michael Johnson,Male,Chemistry,69.7,7.0,66,Pass
+STD2026060,Michael Johnson,Male,Computer Science,72.3,5.2,59,Pass
+STD2026060,Michael Johnson,Male,English,68.5,7.0,76,Pass
+STD2026061,Krunal Gupta,Female,Mathematics,66.5,12.4,64,Pass
+STD2026061,Krunal Gupta,Female,Physics,63.6,16.7,81,Pass
+STD2026061,Krunal Gupta,Female,Chemistry,74.3,15.3,82,Pass
+STD2026061,Krunal Gupta,Female,Computer Science,68.7,17.9,95,Pass
+STD2026061,Krunal Gupta,Female,English,66.2,13.1,87,Pass
+STD2026062,Emma Miller,Male,Mathematics,90.8,7.3,61,Pass
+STD2026062,Emma Miller,Male,Physics,82.2,9.0,46,Pass
+STD2026062,Emma Miller,Male,Chemistry,80.8,8.2,78,Pass
+STD2026062,Emma Miller,Male,Computer Science,91.4,8.8,70,Pass
+STD2026062,Emma Miller,Male,English,80.6,7.8,65,Pass
+STD2026063,Zoya Williams,Male,Mathematics,92.1,6.0,68,Pass
+STD2026063,Zoya Williams,Male,Physics,89.4,5.5,72,Pass
+STD2026063,Zoya Williams,Male,Chemistry,89.1,5.4,56,Pass
+STD2026063,Zoya Williams,Male,Computer Science,91.5,5.7,76,Pass
+STD2026063,Zoya Williams,Male,English,86.1,6.5,89,Pass
+STD2026064,Farhan Brown,Female,Mathematics,81.1,4.3,30,Fail
+STD2026064,Farhan Brown,Female,Physics,87.6,4.8,29,Fail
+STD2026064,Farhan Brown,Female,Chemistry,86.3,4.6,54,Pass
+STD2026064,Farhan Brown,Female,Computer Science,93.3,4.5,57,Pass
+STD2026064,Farhan Brown,Female,English,90.7,5.1,64,Pass
+STD2026065,Nitin Joshi,Male,Mathematics,80.1,10.7,55,Pass
+STD2026065,Nitin Joshi,Male,Physics,77.0,10.0,65,Pass
+STD2026065,Nitin Joshi,Male,Chemistry,79.4,9.9,65,Pass
+STD2026065,Nitin Joshi,Male,Computer Science,75.0,14.2,76,Pass
+STD2026065,Nitin Joshi,Male,English,71.2,9.9,72,Pass
+STD2026066,Rahul Williams,Female,Mathematics,64.0,13.2,80,Pass
+STD2026066,Rahul Williams,Female,Physics,76.8,10.9,53,Pass
+STD2026066,Rahul Williams,Female,Chemistry,73.5,12.1,63,Pass
+STD2026066,Rahul Williams,Female,Computer Science,71.6,13.3,75,Pass
+STD2026066,Rahul Williams,Female,English,72.3,12.9,93,Pass
+STD2026067,Krunal Roy,Female,Mathematics,91.4,11.0,51,Pass
+STD2026067,Krunal Roy,Female,Physics,93.1,13.2,70,Pass
+STD2026067,Krunal Roy,Female,Chemistry,83.6,14.9,81,Pass
+STD2026067,Krunal Roy,Female,Computer Science,85.6,13.8,89,Pass
+STD2026067,Krunal Roy,Female,English,88.4,14.3,68,Pass
+STD2026068,Krunal Garcia,Male,Mathematics,89.4,10.0,52,Pass
+STD2026068,Krunal Garcia,Male,Physics,86.0,10.5,51,Pass
+STD2026068,Krunal Garcia,Male,Chemistry,81.5,11.1,42,Pass
+STD2026068,Krunal Garcia,Male,Computer Science,82.6,9.2,40,Pass
+STD2026068,Krunal Garcia,Male,English,81.4,8.5,55,Pass
+STD2026069,Esha Verma,Female,Mathematics,95.1,5.0,67,Pass
+STD2026069,Esha Verma,Female,Physics,90.6,5.2,58,Pass
+STD2026069,Esha Verma,Female,Chemistry,79.5,5.4,91,Pass
+STD2026069,Esha Verma,Female,Computer Science,89.0,5.8,85,Pass
+STD2026069,Esha Verma,Female,English,89.5,6.2,83,Pass
+STD2026070,Emily Jones,Female,Mathematics,71.6,9.2,45,Pass
+STD2026070,Emily Jones,Female,Physics,67.8,11.5,49,Pass
+STD2026070,Emily Jones,Female,Chemistry,64.1,10.7,65,Pass
+STD2026070,Emily Jones,Female,Computer Science,67.8,9.9,73,Pass
+STD2026070,Emily Jones,Female,English,71.2,11.0,71,Pass
+STD2026071,Varun Sen,Female,Mathematics,59.3,5.7,51,Pass
+STD2026071,Varun Sen,Female,Physics,57.7,5.7,44,Pass
+STD2026071,Varun Sen,Female,Chemistry,56.3,6.6,60,Pass
+STD2026071,Varun Sen,Female,Computer Science,59.5,6.5,49,Pass
+STD2026071,Varun Sen,Female,English,55.3,5.8,66,Pass
+STD2026072,Vidya Rao,Male,Mathematics,73.7,10.0,42,Pass
+STD2026072,Vidya Rao,Male,Physics,69.5,11.7,62,Pass
+STD2026072,Vidya Rao,Male,Chemistry,71.7,10.8,52,Pass
+STD2026072,Vidya Rao,Male,Computer Science,65.9,12.0,64,Pass
+STD2026072,Vidya Rao,Male,English,69.3,9.2,66,Pass
+STD2026073,Chirag Verma,Male,Mathematics,81.1,10.6,66,Pass
+STD2026073,Chirag Verma,Male,Physics,65.5,11.8,48,Pass
+STD2026073,Chirag Verma,Male,Chemistry,78.8,11.5,73,Pass
+STD2026073,Chirag Verma,Male,Computer Science,76.7,14.2,77,Pass
+STD2026073,Chirag Verma,Male,English,78.7,10.8,63,Pass
+STD2026074,Vidya Wilson,Male,Mathematics,63.9,8.1,37,Fail
+STD2026074,Vidya Wilson,Male,Physics,67.9,8.3,30,Fail
+STD2026074,Vidya Wilson,Male,Chemistry,68.8,6.7,63,Pass
+STD2026074,Vidya Wilson,Male,Computer Science,71.9,8.6,45,Pass
+STD2026074,Vidya Wilson,Male,English,69.7,7.9,72,Pass
+STD2026075,David Verma,Male,Mathematics,73.6,8.9,34,Fail
+STD2026075,David Verma,Male,Physics,75.8,10.4,48,Pass
+STD2026075,David Verma,Male,Chemistry,69.7,11.3,64,Pass
+STD2026075,David Verma,Male,Computer Science,68.5,11.4,49,Pass
+STD2026075,David Verma,Male,English,72.1,12.2,65,Pass
+STD2026076,Karan Nair,Female,Mathematics,71.9,14.2,66,Pass
+STD2026076,Karan Nair,Female,Physics,75.4,14.4,68,Pass
+STD2026076,Karan Nair,Female,Chemistry,70.6,12.2,63,Pass
+STD2026076,Karan Nair,Female,Computer Science,67.6,12.4,78,Pass
+STD2026076,Karan Nair,Female,English,83.5,13.0,75,Pass
+STD2026077,Aditi Trivedi,Male,Mathematics,83.7,7.9,55,Pass
+STD2026077,Aditi Trivedi,Male,Physics,86.5,7.7,54,Pass
+STD2026077,Aditi Trivedi,Male,Chemistry,81.0,7.2,50,Pass
+STD2026077,Aditi Trivedi,Male,Computer Science,89.3,9.9,78,Pass
+STD2026077,Aditi Trivedi,Male,English,86.0,7.1,88,Pass
+STD2026078,Dev Sen,Male,Mathematics,56.1,8.7,40,Pass
+STD2026078,Dev Sen,Male,Physics,63.8,8.2,44,Pass
+STD2026078,Dev Sen,Male,Chemistry,68.2,9.8,56,Pass
+STD2026078,Dev Sen,Male,Computer Science,66.5,9.9,43,Pass
+STD2026078,Dev Sen,Male,English,67.3,9.0,55,Pass
+STD2026079,Karan Reddy,Female,Mathematics,94.6,5.9,62,Pass
+STD2026079,Karan Reddy,Female,Physics,87.0,6.1,63,Pass
+STD2026079,Karan Reddy,Female,Chemistry,87.4,7.7,77,Pass
+STD2026079,Karan Reddy,Female,Computer Science,85.7,8.6,85,Pass
+STD2026079,Karan Reddy,Female,English,93.4,6.6,89,Pass
+STD2026080,Dev Mehta,Male,Mathematics,61.0,6.3,71,Pass
+STD2026080,Dev Mehta,Male,Physics,56.8,8.1,54,Pass
+STD2026080,Dev Mehta,Male,Chemistry,65.0,5.8,80,Pass
+STD2026080,Dev Mehta,Male,Computer Science,59.2,5.8,55,Pass
+STD2026080,Dev Mehta,Male,English,64.9,6.1,76,Pass
+STD2026081,Chirag Verma,Male,Mathematics,78.5,6.7,17,Fail
+STD2026081,Chirag Verma,Male,Physics,84.4,9.0,42,Pass
+STD2026081,Chirag Verma,Male,Chemistry,72.5,6.8,50,Pass
+STD2026081,Chirag Verma,Male,Computer Science,72.7,7.9,35,Fail
+STD2026081,Chirag Verma,Male,English,69.7,7.8,51,Pass
+STD2026082,Uday Sen,Female,Mathematics,81.3,4.0,43,Pass
+STD2026082,Uday Sen,Female,Physics,96.3,3.7,50,Pass
+STD2026082,Uday Sen,Female,Chemistry,88.8,3.7,65,Pass
+STD2026082,Uday Sen,Female,Computer Science,87.8,3.0,55,Pass
+STD2026082,Uday Sen,Female,English,88.1,3.8,80,Pass
+STD2026083,Pranav Trivedi,Male,Mathematics,72.3,2.5,40,Pass
+STD2026083,Pranav Trivedi,Male,Physics,80.8,2.3,51,Pass
+STD2026083,Pranav Trivedi,Male,Chemistry,79.1,2.4,52,Pass
+STD2026083,Pranav Trivedi,Male,Computer Science,81.5,2.5,50,Pass
+STD2026083,Pranav Trivedi,Male,English,75.2,2.7,59,Pass
+STD2026084,Hari Patel,Male,Mathematics,72.8,9.0,75,Pass
+STD2026084,Hari Patel,Male,Physics,69.2,6.9,69,Pass
+STD2026084,Hari Patel,Male,Chemistry,69.2,7.3,65,Pass
+STD2026084,Hari Patel,Male,Computer Science,62.8,8.0,54,Pass
+STD2026084,Hari Patel,Male,English,69.3,7.3,76,Pass
+STD2026085,Michael Gupta,Female,Mathematics,73.9,8.4,48,Pass
+STD2026085,Michael Gupta,Female,Physics,71.7,10.5,51,Pass
+STD2026085,Michael Gupta,Female,Chemistry,71.8,10.2,67,Pass
+STD2026085,Michael Gupta,Female,Computer Science,70.1,10.1,66,Pass
+STD2026085,Michael Gupta,Female,English,75.4,8.0,66,Pass
+STD2026086,Dev Rodriguez,Female,Mathematics,76.1,6.8,51,Pass
+STD2026086,Dev Rodriguez,Female,Physics,77.8,8.4,54,Pass
+STD2026086,Dev Rodriguez,Female,Chemistry,82.1,7.7,69,Pass
+STD2026086,Dev Rodriguez,Female,Computer Science,75.1,8.2,48,Pass
+STD2026086,Dev Rodriguez,Female,English,74.2,8.5,74,Pass
+STD2026087,Nitin Garcia,Female,Mathematics,55.9,8.0,42,Pass
+STD2026087,Nitin Garcia,Female,Physics,53.7,7.8,33,Fail
+STD2026087,Nitin Garcia,Female,Chemistry,61.1,6.7,52,Pass
+STD2026087,Nitin Garcia,Female,Computer Science,65.1,5.7,47,Pass
+STD2026087,Nitin Garcia,Female,English,61.9,8.5,49,Pass
+STD2026088,Alexander Reddy,Male,Mathematics,65.3,5.1,12,Fail
+STD2026088,Alexander Reddy,Male,Physics,69.4,4.5,41,Pass
+STD2026088,Alexander Reddy,Male,Chemistry,75.3,3.8,34,Fail
+STD2026088,Alexander Reddy,Male,Computer Science,62.4,5.3,52,Pass
+STD2026088,Alexander Reddy,Male,English,69.3,4.7,41,Pass
+STD2026089,Uday Iyer,Male,Mathematics,84.2,14.5,68,Pass
+STD2026089,Uday Iyer,Male,Physics,80.0,15.9,66,Pass
+STD2026089,Uday Iyer,Male,Chemistry,74.0,14.2,70,Pass
+STD2026089,Uday Iyer,Male,Computer Science,73.6,15.3,67,Pass
+STD2026089,Uday Iyer,Male,English,82.1,13.8,68,Pass
+STD2026090,Riya Patel,Female,Mathematics,65.8,8.2,25,Fail
+STD2026090,Riya Patel,Female,Physics,59.8,7.9,52,Pass
+STD2026090,Riya Patel,Female,Chemistry,62.5,7.2,45,Pass
+STD2026090,Riya Patel,Female,Computer Science,62.4,7.7,57,Pass
+STD2026090,Riya Patel,Female,English,58.9,7.0,53,Pass
+STD2026091,Gautam Sen,Male,Mathematics,52.2,8.4,50,Pass
+STD2026091,Gautam Sen,Male,Physics,52.0,10.6,53,Pass
+STD2026091,Gautam Sen,Male,Chemistry,50.6,9.1,43,Pass
+STD2026091,Gautam Sen,Male,Computer Science,52.6,7.7,55,Pass
+STD2026091,Gautam Sen,Male,English,59.9,9.1,71,Pass
+STD2026092,Meera Shah,Female,Mathematics,79.8,3.8,46,Pass
+STD2026092,Meera Shah,Female,Physics,77.9,3.3,52,Pass
+STD2026092,Meera Shah,Female,Chemistry,79.7,3.2,58,Pass
+STD2026092,Meera Shah,Female,Computer Science,81.9,3.5,59,Pass
+STD2026092,Meera Shah,Female,English,76.2,3.0,66,Pass
+STD2026093,Farhan Kumar,Male,Mathematics,83.5,8.9,30,Fail
+STD2026093,Farhan Kumar,Male,Physics,85.0,11.2,23,Fail
+STD2026093,Farhan Kumar,Male,Chemistry,82.5,12.0,33,Fail
+STD2026093,Farhan Kumar,Male,Computer Science,86.9,11.2,50,Pass
+STD2026093,Farhan Kumar,Male,English,84.5,11.4,43,Pass
+STD2026094,Riya Shah,Male,Mathematics,71.4,6.0,37,Fail
+STD2026094,Riya Shah,Male,Physics,64.8,6.7,44,Pass
+STD2026094,Riya Shah,Male,Chemistry,67.7,6.3,51,Pass
+STD2026094,Riya Shah,Male,Computer Science,65.6,5.7,53,Pass
+STD2026094,Riya Shah,Male,English,63.8,6.9,57,Pass
+STD2026095,Aditi Wilson,Male,Mathematics,80.8,1.1,38,Fail
+STD2026095,Aditi Wilson,Male,Physics,85.1,1.0,48,Pass
+STD2026095,Aditi Wilson,Male,Chemistry,90.3,0.8,52,Pass
+STD2026095,Aditi Wilson,Male,Computer Science,87.3,0.9,56,Pass
+STD2026095,Aditi Wilson,Male,English,81.0,1.1,50,Pass
+STD2026096,Varun Das,Male,Mathematics,70.9,11.1,52,Pass
+STD2026096,Varun Das,Male,Physics,73.2,10.2,55,Pass
+STD2026096,Varun Das,Male,Chemistry,65.8,10.7,59,Pass
+STD2026096,Varun Das,Male,Computer Science,68.0,11.2,74,Pass
+STD2026096,Varun Das,Male,English,62.4,11.2,69,Pass
+STD2026097,Jessica Reddy,Male,Mathematics,92.1,7.2,62,Pass
+STD2026097,Jessica Reddy,Male,Physics,87.4,6.7,68,Pass
+STD2026097,Jessica Reddy,Male,Chemistry,91.1,7.1,79,Pass
+STD2026097,Jessica Reddy,Male,Computer Science,88.9,7.4,82,Pass
+STD2026097,Jessica Reddy,Male,English,85.3,5.4,87,Pass
+STD2026098,Sneha Nair,Female,Mathematics,68.7,3.9,49,Pass
+STD2026098,Sneha Nair,Female,Physics,71.7,4.0,63,Pass
+STD2026098,Sneha Nair,Female,Chemistry,72.7,3.6,58,Pass
+STD2026098,Sneha Nair,Female,Computer Science,67.4,3.9,64,Pass
+STD2026098,Sneha Nair,Female,English,66.8,2.7,61,Pass
+STD2026099,David Nair,Male,Mathematics,100.0,8.6,63,Pass
+STD2026099,David Nair,Male,Physics,100.0,11.8,79,Pass
+STD2026099,David Nair,Male,Chemistry,100.0,11.2,81,Pass
+STD2026099,David Nair,Male,Computer Science,92.2,11.6,68,Pass
+STD2026099,David Nair,Male,English,97.6,10.3,85,Pass
+STD2026100,Lata Patel,Male,Mathematics,78.3,4.4,50,Pass
+STD2026100,Lata Patel,Male,Physics,87.0,4.9,59,Pass
+STD2026100,Lata Patel,Male,Chemistry,74.5,5.3,73,Pass
+STD2026100,Lata Patel,Male,Computer Science,82.2,4.9,69,Pass
+STD2026100,Lata Patel,Male,English,82.0,4.3,66,Pass
+STD2026101,Riya Brown,Female,Mathematics,75.4,8.1,39,Fail
+STD2026101,Riya Brown,Female,Physics,79.5,9.7,52,Pass
+STD2026101,Riya Brown,Female,Chemistry,84.2,8.4,65,Pass
+STD2026101,Riya Brown,Female,Computer Science,71.1,10.7,63,Pass
+STD2026101,Riya Brown,Female,English,78.4,10.2,56,Pass
+STD2026102,Jay Choudhury,Female,Mathematics,73.4,10.4,60,Pass
+STD2026102,Jay Choudhury,Female,Physics,81.7,10.8,66,Pass
+STD2026102,Jay Choudhury,Female,Chemistry,78.3,9.0,68,Pass
+STD2026102,Jay Choudhury,Female,Computer Science,75.1,11.6,75,Pass
+STD2026102,Jay Choudhury,Female,English,76.4,12.1,84,Pass
+STD2026103,James Smith,Male,Mathematics,73.3,8.8,61,Pass
+STD2026103,James Smith,Male,Physics,68.8,10.0,61,Pass
+STD2026103,James Smith,Male,Chemistry,78.2,9.2,51,Pass
+STD2026103,James Smith,Male,Computer Science,69.7,11.4,62,Pass
+STD2026103,James Smith,Male,English,66.6,12.0,77,Pass
+STD2026104,Yash Wilson,Female,Mathematics,87.8,7.2,55,Pass
+STD2026104,Yash Wilson,Female,Physics,85.1,7.3,73,Pass
+STD2026104,Yash Wilson,Female,Chemistry,86.2,7.5,79,Pass
+STD2026104,Yash Wilson,Female,Computer Science,88.7,10.2,83,Pass
+STD2026104,Yash Wilson,Female,English,87.4,8.6,100,Pass
+STD2026105,Sarah Rao,Male,Mathematics,57.5,11.6,57,Pass
+STD2026105,Sarah Rao,Male,Physics,47.6,10.6,53,Pass
+STD2026105,Sarah Rao,Male,Chemistry,55.0,9.0,38,Fail
+STD2026105,Sarah Rao,Male,Computer Science,52.2,9.6,67,Pass
+STD2026105,Sarah Rao,Male,English,51.3,11.9,69,Pass
+STD2026106,Amit Banerjee,Female,Mathematics,99.6,8.0,61,Pass
+STD2026106,Amit Banerjee,Female,Physics,97.6,7.2,64,Pass
+STD2026106,Amit Banerjee,Female,Chemistry,99.1,7.4,55,Pass
+STD2026106,Amit Banerjee,Female,Computer Science,94.0,7.4,80,Pass
+STD2026106,Amit Banerjee,Female,English,99.2,6.8,79,Pass
+STD2026107,Manish Davis,Female,Mathematics,70.3,9.3,48,Pass
+STD2026107,Manish Davis,Female,Physics,64.3,8.9,48,Pass
+STD2026107,Manish Davis,Female,Chemistry,62.0,7.8,51,Pass
+STD2026107,Manish Davis,Female,Computer Science,56.3,10.7,71,Pass
+STD2026107,Manish Davis,Female,English,64.7,11.1,61,Pass
+STD2026108,Uday Das,Male,Mathematics,60.8,1.1,24,Fail
+STD2026108,Uday Das,Male,Physics,51.1,1.1,34,Fail
+STD2026108,Uday Das,Male,Chemistry,58.0,1.1,30,Fail
+STD2026108,Uday Das,Male,Computer Science,56.4,1.0,31,Fail
+STD2026108,Uday Das,Male,English,53.9,1.0,39,Fail
+STD2026109,Yash Brown,Male,Mathematics,72.3,8.4,56,Pass
+STD2026109,Yash Brown,Male,Physics,79.6,6.7,49,Pass
+STD2026109,Yash Brown,Male,Chemistry,75.0,7.5,57,Pass
+STD2026109,Yash Brown,Male,Computer Science,78.0,8.2,57,Pass
+STD2026109,Yash Brown,Male,English,76.4,8.2,66,Pass
+STD2026110,Pranav Rao,Female,Mathematics,64.3,4.4,27,Fail
+STD2026110,Pranav Rao,Female,Physics,54.3,5.1,24,Fail
+STD2026110,Pranav Rao,Female,Chemistry,57.1,6.2,52,Pass
+STD2026110,Pranav Rao,Female,Computer Science,51.0,5.8,57,Pass
+STD2026110,Pranav Rao,Female,English,49.9,6.0,38,Fail
+STD2026111,Dev Johnson,Female,Mathematics,72.0,10.7,50,Pass
+STD2026111,Dev Johnson,Female,Physics,68.2,9.5,76,Pass
+STD2026111,Dev Johnson,Female,Chemistry,64.3,9.9,63,Pass
+STD2026111,Dev Johnson,Female,Computer Science,76.9,7.9,67,Pass
+STD2026111,Dev Johnson,Female,English,70.1,10.6,74,Pass
+STD2026112,Neha Roy,Male,Mathematics,68.9,6.1,48,Pass
+STD2026112,Neha Roy,Male,Physics,67.9,7.9,38,Fail
+STD2026112,Neha Roy,Male,Chemistry,68.1,6.5,59,Pass
+STD2026112,Neha Roy,Male,Computer Science,74.5,7.9,59,Pass
+STD2026112,Neha Roy,Male,English,74.4,6.0,49,Pass
+STD2026113,Sanjay Davis,Male,Mathematics,73.6,5.1,40,Pass
+STD2026113,Sanjay Davis,Male,Physics,72.6,5.1,50,Pass
+STD2026113,Sanjay Davis,Male,Chemistry,80.5,5.7,61,Pass
+STD2026113,Sanjay Davis,Male,Computer Science,75.0,7.2,75,Pass
+STD2026113,Sanjay Davis,Male,English,75.6,7.5,58,Pass
+STD2026114,Chirag Johnson,Male,Mathematics,81.1,1.0,15,Fail
+STD2026114,Chirag Johnson,Male,Physics,82.9,1.0,33,Fail
+STD2026114,Chirag Johnson,Male,Chemistry,76.1,0.9,26,Fail
+STD2026114,Chirag Johnson,Male,Computer Science,79.7,0.9,34,Fail
+STD2026114,Chirag Johnson,Male,English,80.6,0.9,46,Pass
+STD2026115,Ananya Choudhury,Female,Mathematics,73.2,16.2,51,Pass
+STD2026115,Ananya Choudhury,Female,Physics,80.5,16.7,46,Pass
+STD2026115,Ananya Choudhury,Female,Chemistry,78.9,15.6,60,Pass
+STD2026115,Ananya Choudhury,Female,Computer Science,74.6,16.6,66,Pass
+STD2026115,Ananya Choudhury,Female,English,78.7,16.5,66,Pass
+STD2026116,Manish Rodriguez,Male,Mathematics,65.5,13.7,46,Pass
+STD2026116,Manish Rodriguez,Male,Physics,70.5,11.9,58,Pass
+STD2026116,Manish Rodriguez,Male,Chemistry,60.2,10.1,52,Pass
+STD2026116,Manish Rodriguez,Male,Computer Science,63.6,11.5,77,Pass
+STD2026116,Manish Rodriguez,Male,English,76.9,13.2,75,Pass
+STD2026117,Meera Patel,Male,Mathematics,80.0,10.4,62,Pass
+STD2026117,Meera Patel,Male,Physics,76.6,11.7,62,Pass
+STD2026117,Meera Patel,Male,Chemistry,65.7,10.6,73,Pass
+STD2026117,Meera Patel,Male,Computer Science,76.5,11.0,60,Pass
+STD2026117,Meera Patel,Male,English,79.1,9.3,78,Pass
+STD2026118,David Williams,Female,Mathematics,61.1,4.2,39,Fail
+STD2026118,David Williams,Female,Physics,66.2,5.8,44,Pass
+STD2026118,David Williams,Female,Chemistry,65.0,5.8,41,Pass
+STD2026118,David Williams,Female,Computer Science,68.0,6.0,57,Pass
+STD2026118,David Williams,Female,English,60.2,5.2,53,Pass
+STD2026119,John Davis,Female,Mathematics,64.5,5.0,39,Fail
+STD2026119,John Davis,Female,Physics,64.5,6.2,29,Fail
+STD2026119,John Davis,Female,Chemistry,65.9,4.4,59,Pass
+STD2026119,John Davis,Female,Computer Science,65.1,5.7,40,Pass
+STD2026119,John Davis,Female,English,62.0,4.7,62,Pass
+STD2026120,Sarah Garcia,Female,Mathematics,71.0,10.7,49,Pass
+STD2026120,Sarah Garcia,Female,Physics,74.7,12.9,43,Pass
+STD2026120,Sarah Garcia,Female,Chemistry,65.5,11.4,63,Pass
+STD2026120,Sarah Garcia,Female,Computer Science,60.1,11.2,56,Pass
+STD2026120,Sarah Garcia,Female,English,69.5,11.6,64,Pass
